@@ -1,0 +1,140 @@
+
+R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin10.8.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+[R.app GUI 1.65 (6833) x86_64-apple-darwin10.8.0]
+
+WARNING: You're using a non-UTF8 locale, therefore only ASCII characters will work.
+Please read R for Mac OS X FAQ (see Help) section 9 and adjust your system preferences accordingly.
+No help files found matching 'r for mac os x faq' using fuzzy
+matching
+No help files found matching 'r for mac os ' using fuzzy matching
+> q()
+Error in q() : cancelled by user
+> help()
+starting httpd help server ... done
+> my function <- function(x) {
+Error: unexpected 'function' in "my function"
+> 	y <- rnorm(100)
+> 	mean(y)
+[1] 0.1152127
+> 	}
+Error: unexpected '}' in "        }"
+> my function <- function(x) {
+Error: unexpected 'function' in "my function"
+> 	y <- rnorm(100)
+> 	mean(y)
+[1] -0.07365922
+> 	}
+Error: unexpected '}' in "        }"
+> getwd()
+[1] "/Users/Verba"
+> myfunction()
+Error: could not find function "myfunction"
+> ls()
+[1] "y"
+> clear
+Error: object 'clear' not found
+> clear all
+Error: unexpected symbol in "clear all"
+> clearall
+Error: object 'clearall' not found
+> my function <- function(x) {
+Error: unexpected 'function' in "my function"
+> 	y <- rnorm(100)
+> 	mean(y)
+[1] 0.05446455
+> 	}
+Error: unexpected '}' in "        }"
+> my function <- function(x) {
+Error: unexpected 'function' in "my function"
+> 	y <- rnorm(100)
+> 	mean(y)
+[1] -0.01032448
+> }
+Error: unexpected '}' in "}"
+> my function <- function(x) {
+Error: unexpected 'function' in "my function"
+> 	y <- rnorm(100)
+> 	mean(y)}
+Error: unexpected '}' in "        mean(y)}"
+> my function <- function(x) {y <- rnorm(100)mean(y)}
+Error: unexpected 'function' in "my function"
+> ls()
+[1] "y"
+> myfunction <- function(x) {
++ 	y <- rnorm(100) mean(y)}
+Error: unexpected symbol in:
+"myfunction <- function(x) {
+        y <- rnorm(100) mean"
+> myfunction <- function(x) {
++ + 	y <- rnorm(100) mean(y)}
+Error: unexpected symbol in:
+"myfunction <- function(x) {
++       y <- rnorm(100) mean"
+> myfunction <- function(x)
++  {
++  		y <- rnorm(100) mean(y)
+Error: unexpected symbol in:
+" {
+                y <- rnorm(100) mean"
+> }
+Error: unexpected '}' in "}"
+> myfunction <- function(x) {
++  		y <- rnorm(100)
++  		mean(y)
++ }
+> 
+> 
+> 
+> 
+> 
+> myfunction <- function(x) {
++  		y <- rnorm(100)
++  		mean(y)
++ }
+> ls()
+[1] "myfunction" "y"         
+> myfunction()
+[1] 0.1109618
+> y
+  [1]  0.178591306  0.677242488 -0.412199706 -0.252802018 -0.692027991
+  [6] -0.597426198  0.937853391 -0.055143992  0.041621550  1.937924821
+ [11]  1.263528112  0.871617483 -1.067852788  0.946766712  0.405117601
+ [16] -0.179866749  0.946159446 -0.776593022 -0.749214134 -0.162888194
+ [21]  1.608350754 -0.931221172 -0.005068802  1.079572567 -0.986559319
+ [26] -0.483158683 -1.341996989 -0.778173507  0.825840868 -0.792230306
+ [31] -1.250708707  0.256505038  0.746136829 -0.460443561 -0.155755642
+ [36]  0.030106230  0.990891741 -0.127241511 -1.516441368  0.342681328
+ [41]  0.049127381 -1.586035500  0.542465454 -0.205094245  0.803188878
+ [46]  0.067812406  0.153484663  0.809164483  0.288733255 -0.109278771
+ [51] -0.797237577 -1.486904892 -0.043753781 -1.093980436  1.723879514
+ [56]  0.539940965 -0.874596206  2.780030809  1.018141145 -0.738343361
+ [61] -1.954627104 -1.153060582  0.194460125 -0.286902496 -0.459917974
+ [66] -0.287153520  1.320540526 -1.194244947  0.369214694 -1.057114977
+ [71]  1.438268599  0.594866790  1.851768001  0.601550024 -0.393335321
+ [76] -0.928959063  1.082816673  1.847597806  0.996515076  0.961581770
+ [81] -0.169021031  0.457760730  0.704766766  0.445465618 -0.043908183
+ [86]  0.833916260  0.187470527 -0.944506214  0.010430805 -0.181475896
+ [91]  0.845064723  1.619341824 -0.664899369 -0.811005246  2.504403304
+ [96]  0.239633979  2.015661851  0.477011110  0.489100898  1.268987064
+> 
